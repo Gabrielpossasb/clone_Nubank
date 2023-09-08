@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-Graphik text-gray-600 font-medium
+}
+
+@layer base {
+
+  @font-face {
+    font-family: Graphik;
+    font-weight: 200;
+    src: url(/public/fonts/GraphikExtralight.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 300;
+    src: url(/public/fonts/GraphikLight.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 400;
+    src: url(/public/fonts/GraphikMedium.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 500;
+    src: url(/public/fonts/GraphikRegular.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 600;
+    src: url(/public/fonts/GraphikSemibold.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 700;
+    src: url(/public/fonts/GraphikBold.otf) format("otf");
+  }
+  @font-face {
+    font-family: Graphik;
+    font-weight: 800;
+    src: url(/public/fonts/GraphikBlack.otf) format("otf");
+  }
+
+}
