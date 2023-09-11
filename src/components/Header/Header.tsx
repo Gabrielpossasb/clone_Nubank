@@ -6,7 +6,7 @@ import LogoNubank from "public/nubank-seeklogo.com.svg"
 
 export function Header () {
    return (
-      <div className="flex items-center leading-5 text-base w-full justify-between px-16 h-16 overflow-hidden">
+      <div className="fixed bg-white flex items-center leading-5 text-base w-full justify-between px-16 h-[10vh] overflow-hidden">
 
          <div className="flex gap-6">
 
