@@ -62,7 +62,7 @@ export function Header () {
 
          </div>
 
-         <div className="flex text-xl font-bold items-center gap-2 text-purple-600">
+         <div className="flex text-xl font-semibold items-center gap-2 text-purple-600">
 
             <text>Login</text>
 
