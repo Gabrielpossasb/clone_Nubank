@@ -47,9 +47,28 @@ export function Dashboard() {
 
          </div>
 
-         <div>
-            
+         <div className=''>
+
+            <div className='flex flex-col gap-8 max-w-xs'>
+
+               <div className='font-semibold'>
+
+
+                  <text className=''>Empréstimo</text>
+               </div>
+
+               <text>Transparentes, seguros e do seu jeito. Opções de empréstimos que deixam você no controle do início ao fim.</text>
+
+               <button className='text-purple-600 flex justfy-bettwen'>
+                  <text>Saiba mais</text>
+
+                  <BiArrowBack size={24} className={'rotate-180'}/>
+               </button>
+
+            </div>
+
          </div>
+
       </div>
    )
 }
