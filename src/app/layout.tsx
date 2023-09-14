@@ -1,6 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import localFont from '@next/font/local'
+import localFont from 'next/font/local'
 
 export const metadata: Metadata = {
   title: 'Nubank - Finalmente você no controle do seu dinheiro',

@@ -24,13 +24,13 @@ export function Home () {
 
             </div>
 
-            <div className='bg-white flex flex-col rounded-2xl p-6 gap-10 max-w-[20.6rem]'>
+            <div className='bg-white flex flex-col rounded-2xl p-6 pb-10 gap-10 max-w-[20.6rem]'>
                
                <text className='text-2xl font-medium'> Peça sua conta e cartão de crédito do Nubank </text>
 
                <input placeholder='Digite se CPF' className='py-2 text-sm outline-none border-b-[1px] text-600/20 border-gray-600/20 hover:border-gray-600 duration-300'/>
 
-               <button className='bg-gray-600/10 flex text-gray-600/20 rounded-full justify-between p-4 hover:cursor-not-allowed'>
+               <button className='bg-gray-600/10 flex text-gray-600/20 rounded-full justify-between p-3 hover:cursor-not-allowed'>
 
                   <text>Continuar</text>
 
