@@ -21,7 +21,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      'Graphik': ['Graphik'],
+      sans: ['var(--font-graphik)'],
     },
   },
   plugins: [],
