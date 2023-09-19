@@ -48,8 +48,8 @@ export function Section4 () {
 
             <div className='bg-purple-600 flex flex-col p-12 gap-8 w-[50%] text-white'>
 
-               <div className=''>
-                  <Image src={ContaNubank} alt='' className='h-[400px]'/>
+               <div className='relative h-[400px] overflow-hidden'>
+                  <Image src={ContaNubank} alt='' fill className='scale-150'/>
                </div>
 
                <div className='flex flex-col gap-2'>

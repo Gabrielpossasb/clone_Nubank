@@ -6,9 +6,9 @@ import LogoNubank from "public/midia/homeNubank_2304x1536.webp"
 
 export function Home () {
    return (
-      <div className='w-full h-[91vh] overflow-hidden relative'>
+      <div className='w-full h-[91vh] relative'>
 
-         <Image src={LogoNubank} alt="" width={2304} height={1536} objectPosition='cover' className=''/>
+         <Image src={LogoNubank} alt="" fill={true} objectFit='cover'  className=''/>
 
          <div className='absolute left-0 top-0 bottom-0 right-0 z-20 flex items-center justify-around'>
 

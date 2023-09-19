@@ -2,7 +2,7 @@ import { Card1 } from "./Card1";
 
 export function SectionCard1 () {
    return (
-      <div className='py-10 flex gap-10 w-full overflow-scroll'>
+      <div className='py-10 px-16 flex gap-10 w-full overflow-scroll'>
             
             <Card1 
                title='Empréstimo' 

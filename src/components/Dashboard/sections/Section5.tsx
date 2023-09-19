@@ -29,12 +29,12 @@ export function Section5 () {
 
          </div>
 
-         <div className="flex gap-10">
+         <div className="flex gap-10 justify-around">
 
-            <div className="rounded-3xl flex flex-col w-[38%] overflow-hidden border-[1px] border-gray-600/10">
+            <div className="rounded-3xl flex flex-col w-full overflow-hidden border-[1px] border-gray-600/10">
                
-               <div className="">
-                  <Image src={InvistaSeuDinheiro} alt="" className="h-[300px] "/>
+               <div className="min-h-[300px] w-full overflow-hidden bg-slate-800 relative">
+                  <Image src={InvistaSeuDinheiro} alt="" fill objectFit="cover" className="scale-150"/>
                </div>
 
                <div className="flex flex-col p-6 py-6 gap-4 justify-between h-full">
@@ -62,10 +62,10 @@ export function Section5 () {
 
             </div>
 
-            <div className="rounded-3xl flex flex-col w-[38%] overflow-hidden border-[1px] border-gray-600/10">
+            <div className="rounded-3xl flex flex-col w-full overflow-hidden border-[1px] border-gray-600/10">
                
-               <div className="">
-                  <Image src={ShoppingNu} alt="" className="h-[300px] "/>
+               <div className="min-h-[300px] w-full overflow-hidden bg-slate-800 relative">
+                  <Image src={ShoppingNu} alt="" fill objectFit="cover" className="scale-150"/>
                </div>
 
                <div className="flex flex-col p-6 py-6 gap-4 justify-between h-full">
@@ -93,10 +93,10 @@ export function Section5 () {
 
             </div>
 
-            <div className="rounded-3xl flex flex-col w-[38%] overflow-hidden border-[1px] border-gray-600/10">
+            <div className="rounded-3xl flex flex-col w-full overflow-hidden border-[1px] border-gray-600/10">
                
-               <div className="">
-                  <Image src={Card3} alt="" className="h-[300px] "/>
+               <div className="min-h-[300px] w-full overflow-hidden bg-slate-800 relative">
+                  <Image src={Card3} alt="" fill objectFit="cover" className=""/>
                </div>
 
                <div className="flex flex-col p-6 py-6 gap-4 justify-between h-full">
