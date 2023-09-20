@@ -11,7 +11,7 @@ export function Header () {
          <div className="flex gap-6 ">
 
             <a href="https://nubank.com.br/" target="_blank" className="">
-               <Image width={55} height={45} src={LogoNubank} alt="" className=""/>
+               <Image width={70} height={60} src={LogoNubank} alt="" className=""/>
             </a>
 
             <div className="text-gray-600 flex gap-6 items-center ">
